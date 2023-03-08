@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net7.0;netstandard2.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+		<PackageReference Include="System.Text.Json" Version="7.0.0" />
+		<PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
+		<PackageReference Include="Italbytz.Ports.Common" Version="0.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PlaceholderPosts.Core\PlaceholderPosts.Core.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="Italbytz.Ports.Common" />
+	</ItemGroup>
+</Project>

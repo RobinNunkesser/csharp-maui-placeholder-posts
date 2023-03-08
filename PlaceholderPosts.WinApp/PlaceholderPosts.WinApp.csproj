@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlaceholderPosts.Core\PlaceholderPosts.Core.csproj" />
+    <ProjectReference Include="..\PlaceholderPosts.Infrastructure\PlaceholderPosts.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

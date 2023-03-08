@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\PlaceholderPosts.Core\PlaceholderPosts.Core.csproj" />
+		<ProjectReference Include="..\PlaceholderPosts.Infrastructure\PlaceholderPosts.Infrastructure.csproj" />
+	</ItemGroup>
+</Project>

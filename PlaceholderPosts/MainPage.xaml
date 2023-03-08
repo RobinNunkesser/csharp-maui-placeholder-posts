@@ -1,0 +1,20 @@
+﻿<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PlaceholderPosts.MainPage"
+    BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <VerticalStackLayout>
+        <Entry
+            x:Name="IdEntry"
+            Placeholder="Id"
+            Keyboard="Numeric" />
+        <Button
+            Text="Test Retrieve Post"
+            Clicked="Retrieve_Button_Clicked" />
+        <Label
+            x:Name="ResultLabel"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand" />
+    </VerticalStackLayout>
+</ContentPage>
