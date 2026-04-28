@@ -1,6 +1,6 @@
 using System;
 using System.Threading.Tasks;
-using Italbytz.Ports.Common;
+using Italbytz.Common.Abstractions;
 using PlaceholderPosts.Core.Ports;
 
 namespace PlaceholderPosts.Core

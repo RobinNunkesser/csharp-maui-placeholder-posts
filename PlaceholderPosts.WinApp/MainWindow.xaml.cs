@@ -1,4 +1,4 @@
-﻿using Italbytz.Ports.Common;
+﻿using Italbytz.Common.Abstractions;
 using PlaceholderPosts.Core;
 using PlaceholderPosts.Core.Ports;
 using PlaceholderPosts.Infrastructure;
@@ -25,7 +25,7 @@ namespace PlaceholderPosts.WinApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly IService<IPostID, IPost> _service =
+        private readonly IAsyncService<IPostID, IPost?> _service =
             new GetPostService(new PostRepositoryAdapter());
 
         public MainWindow()

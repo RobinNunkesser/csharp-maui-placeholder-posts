@@ -1,4 +1,4 @@
-using Italbytz.Ports.Common;
+using Italbytz.Common.Abstractions;
 using Moq;
 using NUnit.Framework;
 using PlaceholderPosts.Core.Ports;

@@ -1,8 +1,8 @@
 ﻿using System;
-using Italbytz.Ports.Common;
+using Italbytz.Common.Abstractions;
 
 namespace PlaceholderPosts.Core.Ports
 {
     public interface IGetPostService
-        : IService<IPostID, IPost?> { }
+        : IAsyncService<IPostID, IPost?> { }
 }
