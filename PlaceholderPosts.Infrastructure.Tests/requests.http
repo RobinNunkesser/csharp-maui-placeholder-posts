@@ -1,0 +1,13 @@
+### GET Beispiel
+GET https://jsonplaceholder.typicode.com/posts/1
+Accept: application/json
+
+### POST Beispiel
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
